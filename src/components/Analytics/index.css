@@ -1,0 +1,28 @@
+.analytics-container {
+    margin-top: 20px;
+  }
+  
+  .analytics-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .generate-analytics-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .generate-analytics-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .no-tasks-msg {
+    font-size: 18px;
+    color: #666;
+  }
+  
