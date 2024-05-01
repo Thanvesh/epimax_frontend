@@ -36,7 +36,7 @@ export class SignUp extends Component {
     event.preventDefault();
     const { name, email, password,role } = this.state;
     const userDetails = { name, email, password,role };
-    const response = await fetch('http://localhost:5000/signup', {
+    const response = await fetch('https://epimax-server.onrender.com/signup', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
